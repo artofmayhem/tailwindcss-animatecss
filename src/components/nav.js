@@ -1,14 +1,8 @@
-import { useState, useEffect } from "react"
 
-const navigation = ["Home", "About", "Team", "Connect"]
+const navMap = ["Home", "About", "Team", "Connect"]
 
 function Nav() {
-    const [navMap, setNavMap] = useState()
-
-    useEffect(() => {
-        setNavMap(navigation)       
-    }, [])
-
+            
     return (
         <nav className={'flex flex-row justify-between bg-white h-8'}>
                 <h1 className={'text-black text-3xl m-4 p-2'}>SONVR DESIGN</h1>
