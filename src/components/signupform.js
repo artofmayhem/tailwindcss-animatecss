@@ -19,6 +19,7 @@ const initialFormValues = {
   const handleSubmit = (e) => {
     e.preventDefault()
     alert("You have successfully submitted")
+    setFormValues(initialFormValues)
   }
 
   const handleChange = (e) => {
