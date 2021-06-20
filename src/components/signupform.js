@@ -47,10 +47,10 @@ const initialFormValues = {
         <p className="mt-2 text-center text-sm text-gray-600">
           Or{" "}
           <a
-            href="#"
+            href="https://sonvrdesign-newhire.netlify.app/"
             className="font-medium text-indigo-600 hover:text-indigo-500"
           >
-            start your 14-day free trial
+            enter the new hire portal
           </a>
         </p>
       </div>
